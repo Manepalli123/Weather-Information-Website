@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    background-image: url("https://source.unsplash.com/960x625/?weather"); 
+    background-position: fixed;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: cover;
+    margin: 10px; 
+}
+#name{
+    color:darkred;
+    text-transform: capitalize;
+    margin-left:210px;
+    margin-top:25px;
+    font-size: larger;
+    width: 150px;
+    font-weight:50%;
+    text-align: center;
+    font-weight: 100%;
+    -ms-text-size-adjust: auto;
+}
+#kite{
+    margin-left: 200px;
+    height: 25px ;
+    width: 150px;
+    border-radius: 5px;
+    border-color: burlywood;
+    margin-top: 100px;
+}
+#butt{
+    margin-left: 250px;
+    border-radius: 3px;
+    border-color: gold;
+    margin-bottom: 5px;
+}
+.main-class{
+    width: 550px;
+    height: 420px;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:110px;
+    border:3px black solid;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:100px;
+   
+}
+#search{
+    height: 20px;
+    width:20px;
+    border-radius: 5px;
+    size:100%;
+}

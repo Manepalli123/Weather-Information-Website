@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First ejs file</title>
+    <link rel="stylesheet" href="css/insidecss.css"> 
+</head>
+<body>
+    
+    <div class="container">
+    <h1 id="placename"><%= place %></h1>
+      
+    <div class = "minmax"><h1 id="name">Tempature:<%= TEMP %></h1><h2 id ="kite">C <sup>o</sup></h2></div>
+    <h1 id="name">Maximum Tempature:<%= TEMPMAX %></h1>
+    <h1 id="name">Minimum Tempature:<%= TEMPMIN %></h1>
+    <h1 id="name">Humidity:<%=HUMIDITY%></h1>
+    <h1 id="name">Description:<%=DESCRIPTION%></H1>
+    </div>
+    <form action="/" method="GET">
+        <button type="submit" id="submiting">REFRESH...</button>
+    </form>
+  
+</body>
+</html>
